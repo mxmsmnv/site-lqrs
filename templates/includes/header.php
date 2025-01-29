@@ -80,7 +80,9 @@ $homepage = $pages->get('/');
 				<nav class="flex flex-col space-y-2 p-4 text-lg">
 					<a href="/" class="hover:text-stromboli-300">Home</a>
 					<?=renderMenu($menuItems, true); ?>
+					<?php if($user->isSuperuser()): ?>
 					<a href="<?=$config->urls->admin?>" class="text-rose-600 hover:text-rose-300"><?=$config->urls->admin?></a>
+					<?php endif; ?>
 				</nav>
 			</div>
 		</div>
