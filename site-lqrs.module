@@ -1,0 +1,29 @@
+<?php namespace ProcessWire;
+
+/**
+ * LQRS URL Shortener Profile for ProcessWire 3x
+ * This site profile for ProcessWire offers a free and easy-to-use URL shortener that transforms long links into concise, shareable URLs. It is built using standard ProcessWire modules and field types.
+ *
+ * @author Maxim Semenov
+ * @license MIT License
+ * @link https://github.com/mxmsmnv/site-lqrs
+ * @version 1.0.0
+ * 
+ * @see Forum Thread: https://processwire.com/talk/topic/30976-lqrs-url-shortener/
+ */
+class LQRSShortener implements Module {
+    public static function getModuleInfo() {
+        return array(
+            'title' => 'LQRS URL Shortener Profile for ProcessWire 3x',
+            'summary' => 'This site profile for ProcessWire offers a free and easy-to-use URL shortener that transforms long links into concise, shareable URLs. It is built using standard ProcessWire modules and field types.',
+            'href' => 'hhttps://github.com/mxmsmnv/site-lqrs',
+            'author' => 'Maxim Semenov',
+            'version' => 100,
+            'requires' => 'ProcessWire>=3.2.0',
+            'singular' => true,
+            'autoload' => false,
+            'icon' => 'compress',
+            'permanent' => false,
+        );
+    }
+}
