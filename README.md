@@ -28,11 +28,10 @@ LQRS URL Shortener is a free and easy-to-use tool that transforms long links int
 1. Navigate to the URL shortener page.
 2. Enter the original long URL in the designated form field.
 3. Optionally, provide a custom short code or let the system generate one automatically.
-4. Add additional metadata like title and description if desired.
-5. Submit the form to create the short URL.
+4. Submit the form to create the short URL.
 
 ### Managing Short URLs
 
-- View recently created short URLs in the admin dashboard.
+- View recently created short URLs on the first page in Superuser mode.
 - Monitor the click count for each short URL to track its performance.
 - Edit or delete short URLs as needed through the admin interface.
